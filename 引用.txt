@@ -1,0 +1,1 @@
+  <cus-datepick @dateChange="curDate" :curDateList="dateList"></cus-datepick>
