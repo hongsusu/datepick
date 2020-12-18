@@ -43,7 +43,7 @@
       <div class="cusdate-select-header">
         <div class="title">已选择时间段</div>
         <div class="del" @click="delSelect">
-          <img class="img" src="@assets/images/cusdatepick/delet.png" alt="">
+          <img class="img" src="../assets/cusdatepick/delet.png" alt="">
           清空
         </div>
       </div>
@@ -56,7 +56,7 @@
     </div>
     <div class="cusdate-select" v-else>
       <div class="cusdate-selectbox">
-        <img src="@assets/images/cusdatepick/drag_icon.png" alt="" class="no-select-img">
+        <img src="../assets/cusdatepick/drag_icon.png" alt="" class="no-select-img">
         <span class="no-select">可拖动鼠标选择时间段</span>
       </div>
     </div>
@@ -794,4 +794,5 @@
       background: #fa7516;
     }
   }
+
 </style>

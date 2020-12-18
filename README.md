@@ -2,16 +2,11 @@
 
 > Vue.js 2.x B端拖拽日历组件。
 
-## 安装
-
-```
-$ yarn add wkdatepick
-```
 
 ## B 端拖拽日历组件
 
 ```` html
-<wk-datepick @dateChange="curDate" :curDateList="dateList"/>
+<cus-datepick @dateChange="curDate" :curDateList="dateList"/>
 ````
 
 
